@@ -29,12 +29,17 @@
   }
   
   button {
-    background-color: #007bff;
+    background-color: black;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
+    transition: padding 1s ease
+  }
+
+  button:hover {
+    padding: 15px;
   }
   
   .contact-image {

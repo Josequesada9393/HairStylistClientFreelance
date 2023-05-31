@@ -41,6 +41,13 @@
             padding: 10px;
             border-radius: 10px;
             border: none;
+            background-color: white;
+            transition: padding 0.5s ease
+        }
+
+        button:hover {
+            padding: 15px;
+
         }
     }
 }
