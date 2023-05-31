@@ -5,17 +5,7 @@ import ServiceCard from '../../Components/serviceCard/ServiceCard';
 import { Item } from '../../Types/Types';
 
 function Services() {
-    const containerVariants = {
-        hidden: {
-          opacity: 0,
-        },
-        visible: {
-          opacity: 1,
-          transition: {
-            delay: 0.5, // Delay before starting the animation
-          },
-        },
-      };
+   
 
     const items:Item[] = [
         {
@@ -53,8 +43,13 @@ function Services() {
   return (
     <motion.div 
     initial="hidden"
-    animate="visible"
-    variants={containerVariants}
+    whileInView="visible"
+    viewport={{ once: true, amount: 0.5 }}
+    transition={{ duration: 0.5 }}
+    variants={{
+      hidden: { opacity: 0, x: -50 },
+      visible: { opacity: 1, x: -20 },
+    }}
     className='servicesContainer'>
         
     {items.map((item) => {
