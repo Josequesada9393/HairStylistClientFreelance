@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+body {
+   background-color: rgb(218,213,203);
+   margin: 0;
+   padding: 0
+   /* background-image: url("https://media.allure.com/photos/6318eff6bee049732c2e1780/16:9/w_4480,h_2520,c_limit/Best%20of%20Beauty%202022%20Hair%20Winners.jpg") */
+}
+

@@ -1,0 +1,29 @@
+.servicesContainer {
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicesContainer::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+  }
+ 
+// .servicesContainer::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     background-image: url("https://img.freepik.com/premium-photo/hair-colors-dyed-palette-set-background-closeup-ai-generation_201606-6789.jpg");
+//     opacity: 0.2; /* Adjust the opacity value (0.5) to control the opacity of the image */
+//     z-index: -1; /* Ensure the pseudo-element is positioned behind the content */
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }

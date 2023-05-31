@@ -1,0 +1,29 @@
+
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+
+    .title {
+        margin-left: 4vh;
+        flex: 1;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+
+    
+    .navbarItems {
+        display: flex;
+        justify-content: space-evenly;
+        flex: 1;
+        cursor: pointer
+    }
+    
+}
+
+
+
