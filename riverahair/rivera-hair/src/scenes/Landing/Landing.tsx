@@ -1,8 +1,6 @@
-import React from 'react'
 import './Landing.scss'
 import { motion } from 'framer-motion'
-import Box from '../../Components/Box/Box';
-import video from '../../media/video.mp4'
+
 
 function Landing() {
 

@@ -1,8 +1,6 @@
-import React from 'react'
 import './ServiceCard.scss'
-import { motion } from 'framer-motion'
 
-function ServiceCard({item}) {
+function ServiceCard({item}:any) {
 
 
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Contact.scss";
 import { motion } from "framer-motion";
 import {useForm} from 'react-hook-form'

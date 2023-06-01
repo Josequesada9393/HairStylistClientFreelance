@@ -19,8 +19,15 @@
             border-radius: 20px;
             object-fit: cover;
             transform: rotate(2deg);
-
+            transition: all 1s ease;
         }
+
+        img:hover {
+            width: 110%;
+            height: 110%;
+        }
+
+
     }
     
     .description {

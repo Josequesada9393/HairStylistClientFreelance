@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Services.scss'
 import { motion } from 'framer-motion'
 import ServiceCard from '../../Components/serviceCard/ServiceCard';
