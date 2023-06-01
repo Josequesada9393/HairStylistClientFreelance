@@ -11,7 +11,7 @@ const Contact = () => {
         formState: { errors }
       } = useForm();
 
-      const onSubmit = async (e) => {
+      const onSubmit = async (e:any) => {
         const isValid = await trigger();
         if (!isValid) {
           e.preventDefault();
@@ -69,7 +69,7 @@ const Contact = () => {
         </div>
         <div className="form-group">
           <label htmlFor="message">Message</label>
-          <textarea id="message" rows="4" 
+          <textarea id="message" rows={4}
            {...register("message", {
             required: true,
             maxLength: 2000,

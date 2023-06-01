@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Landing from './scenes/Landing/Landing'
 import Services from './scenes/ServicesProvided/Services'
-import Breakpoint from './Components/Navbar/breakpoint/Breakpoint'
+import Breakpoint from './Components/breakpoint/Breakpoint'
 import Contact from './scenes/Contact/Contact'
 function App() {
 
